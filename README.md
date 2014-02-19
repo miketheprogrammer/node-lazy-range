@@ -1,6 +1,11 @@
 node-lazy-range
 ===============
 
+[![browser support](https://ci.testling.com/miketheprogrammer/node-lazy-range.png)](https://ci.testling.com/miketheprogrammer/node-lazy-range)
+
+[![build status](https://secure.travis-ci.org/miketheprogrammer/node-lazy-range.png)](http://travis-ci.org/miketheprogrammer/node-lazy-range)
+
+
 Lazy Range function for JS. Exposes forEach forEachAsync and toArray
 
 ``` js
@@ -18,6 +23,13 @@ var range = require('./range')
 var arr = range(1,11).map(function(i) {
     return i*5
 })
+
+// You can also use a step param
+
+range(0,10,2).toArray(); // where step == 2
+//[0, 2, 4, 6, 8]
+
+
 console.log(arr)
 
 /*
