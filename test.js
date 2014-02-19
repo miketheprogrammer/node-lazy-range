@@ -4,24 +4,6 @@ var range = require('./range')
 
 test('Everything should execute without error', function(t) {
 /*
-  Faster than Array.map since it does
-  array composition and function application in same step
-*/
-var arr = range(1,11).map(function(i) {
-    return i*5
-})
-console.log(arr)
-
-/*
-You can still do
-*/
-arr = range(1,11).toArray().map(function(i) {
-    return i*2
-})
-console.log(arr)
-
-
-/*
 As well we can just execute a function against a range but not return an array
 */
 range(1,11).forEach(function(i) {
