@@ -1,6 +1,6 @@
 {
   "name": "lazy-range",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lazy Range function for JS. Exposes forEach forEachAsync and toArray. ",
   "main": "range.js",
   "scripts": {
@@ -15,7 +15,6 @@
     "range",
     "lazy",
     "forEach",
-    "async",
     "iterator"
   ],
   "testling": {

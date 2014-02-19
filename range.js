@@ -30,13 +30,6 @@ module.exports = function range(a, b, skip) {
 				index += 1;
 		  }
 		  return undefined;
-		},
-		forEachAsync: function forEachAsync(func) {
-			var index = 0;
-		  for (var i = a; i < b; i += skip) {
-				setImmediate(func.bind(null, i, index));
-				index += 1;
-		  }
 		}
   }
 }
