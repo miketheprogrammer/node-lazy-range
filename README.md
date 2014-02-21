@@ -84,3 +84,6 @@ num:8103.083927575384
 num:22026.465794806718
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/node-lazy-range/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
